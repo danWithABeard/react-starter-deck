@@ -1,0 +1,11 @@
+{
+  "name": "React Starter Deck",
+  "description": "Starter code for a react app",
+  "keywords": [ "react", "reactjs", "introduction" ],
+  "repository": "",
+  "website": "http://danwithabeard.com",
+  "success_url": "/",
+  "env" : {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }
+}

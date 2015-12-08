@@ -1,0 +1,49 @@
+{
+  "name": "react-starter-deck",
+  "version": "0.0.0",
+  "description": "A basic starter deck for a react application.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "marked": "^0.3.5"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.0",
+    "browserify": "^12.0.1",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-react": "^0.12.3",
+    "grunt-sass": "^1.1.0",
+    "jquery": "^2.1.4",
+    "load-grunt-tasks": "^3.3.0",
+    "marked": "^0.3.5",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "reactify": "^0.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactjs/react-tutorial.git"
+  },
+  "keywords": [
+    "react",
+    "danWithABeard",
+    "starter-deck",
+    "intro"
+  ],
+  "author": "danWithABeard",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": "0.12.x"
+  }
+}
