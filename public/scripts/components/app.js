@@ -1,8 +1,8 @@
-const Header = require('./header');
-const React = require('react');
-const ReactDOM = require('react-dom');
+import Header from './header'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 ReactDOM.render(
-  <Header url="/api/data" pollInterval={2000} />,
+  <Header url="/api/data" />,
   document.getElementById('content')
 );

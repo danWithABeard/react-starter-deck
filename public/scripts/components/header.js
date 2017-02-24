@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-let Header = React.createClass({
+const Header = React.createClass({
 	render() {
 		return(
       <div>
@@ -10,4 +10,4 @@ let Header = React.createClass({
 	}
 });
 
-module.exports = Header;
+export default Header;
