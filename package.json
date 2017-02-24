@@ -6,7 +6,8 @@
   "dependencies": {
     "body-parser": "^1.4.3",
     "express": "^4.4.5",
-    "marked": "^0.3.5"
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "babelify": "^6.1.0",
@@ -17,11 +18,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-react": "^0.12.3",
     "grunt-sass": "^1.1.0",
-    "jquery": "^2.1.4",
     "load-grunt-tasks": "^3.3.0",
-    "marked": "^0.3.5",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
     "reactify": "^0.17.1"
   },
   "scripts": {
@@ -30,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/react-tutorial.git"
+    "url": "https://github.com/danWithABeard/react-starter-deck"
   },
   "keywords": [
     "react",
