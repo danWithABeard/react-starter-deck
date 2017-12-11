@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Header = React.createClass({
-	render() {
+export default class Header extends Component <{}> {
+	constructor() {
+    super()
+    this.state = {
+      data: {}
+    }
+  }
+
+  render() {
 		return(
       <div>
         <h1>Header!</h1>
       </div>
-		);
+		)
 	}
-});
-
-export default Header;
+}

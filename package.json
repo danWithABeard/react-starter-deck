@@ -2,10 +2,8 @@
   "name": "react-starter-deck",
   "version": "0.0.0",
   "description": "A basic starter deck for a react application.",
-  "main": "server.js",
+  "main": "build.js",
   "dependencies": {
-    "body-parser": "^1.4.3",
-    "express": "^4.4.5",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
@@ -18,11 +16,11 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-react": "^0.12.3",
     "grunt-sass": "^1.1.0",
-    "load-grunt-tasks": "^3.3.0"
+    "load-grunt-tasks": "^3.3.0",
+    "npm-check-updates": "^2.13.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
